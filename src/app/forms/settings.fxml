@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="608" prefWidth="640" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#4d4d4d" focusTraversable="false" height="56" id="rect6" layoutX="0" layoutY="552" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="640"/>
+    <TabPaneEx focusTraversable="true" id="tabPane" layoutX="0" layoutY="0" prefHeight="552" prefWidth="640" styleClass="tab-pane " tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+        <Tab text="Picture in picture">
+          <content>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="522" prefWidth="640" styleClass="">
+              <children>
+                <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="5" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel3" layoutX="4" layoutY="436" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="80" prefWidth="632" styleClass="" titleColor="#d2d2d2" titleOffset="15" titlePosition="TOP_LEFT">
+                  <children>
+                    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="24" id="imageAlt" layoutX="4" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="24">
+                      <font>
+                        <Font name="System Regular" size="12"/>
+                      </font>
+                    </ImageViewEx>
+                    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/help.png" visible="1"/>
+                    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="32" layoutY="4" prefHeight="28" prefWidth="100" styleClass="label " text="Tip:" textAlignment="LEFT" underline="false" wrapText="false">
+                      <font>
+                        <Font name="System Regular" size="20"/>
+                      </font>
+                    </LabelEx>
+                    <Data cursor="DEFAULT" enabled="1" id="data-label9" visible="1"/>
+                    <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label10" layoutX="12" layoutY="40" prefHeight="36" prefWidth="604" styleClass="label " text="This setting is intended to help you optimize display of content in picture-in-picture playback mode, for example, remove black bars on the sides of video, or simply set the window to the desired shape and size." textAlignment="LEFT" underline="false" wrapText="true">
+                      <font>
+                        <Font name="System Regular" size="12"/>
+                      </font>
+                    </LabelEx>
+                    <Data cursor="DEFAULT" enabled="1" id="data-label10" visible="1"/>
+                  </children>
+                  <titleFont>
+                    <Font name="System Regular" size="12"/>
+                  </titleFont>
+                </Panel>
+                <Panel backgroundColor="#1a1a1a" borderColor="#b31a1a" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="12" layoutY="72" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="200" prefWidth="280" styleClass="" titleColor="#d2d2d2" titleOffset="15" titlePosition="TOP_LEFT">
+                  <children>
+                    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="48" id="rectAlt" layoutX="8" layoutY="8" stroke="#334db3" strokeType="INSIDE" strokeWidth="-1" styleClass="" width="8"/>
+                    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+                    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="8" id="rect3" layoutX="16" layoutY="8" stroke="#334db3" strokeType="INSIDE" strokeWidth="-1" styleClass="" width="40"/>
+                    <Data cursor="DEFAULT" enabled="1" id="data-rect3" visible="1"/>
+                    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="22" layoutY="19" prefHeight="16" prefWidth="96" styleClass="label " text="4:3" textAlignment="LEFT" underline="false" wrapText="false">
+                      <font>
+                        <Font name="System Regular" size="20"/>
+                      </font>
+                    </LabelEx>
+                    <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+                    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="24" layoutY="40" prefHeight="16" prefWidth="96" styleClass="label " text="320x240p" textAlignment="LEFT" underline="false" wrapText="false">
+                      <font>
+                        <Font name="System Regular" size="12"/>
+                      </font>
+                    </LabelEx>
+                    <Data cursor="DEFAULT" enabled="1" id="data-label7" visible="1"/>
+                  </children>
+                  <titleFont>
+                    <Font name="System Regular" size="12"/>
+                  </titleFont>
+                </Panel>
+                <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+                <Panel backgroundColor="#1a1a1a" borderColor="#b31a1a" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panelAlt" layoutX="308" layoutY="72" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="180" prefWidth="320" styleClass="" titleColor="#d2d2d2" titleOffset="15" titlePosition="TOP_LEFT">
+                  <children>
+                    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="8" id="rect4" layoutX="8" layoutY="8" stroke="#334db3" strokeType="INSIDE" strokeWidth="-1" styleClass="" width="40"/>
+                    <Data cursor="DEFAULT" enabled="1" id="data-rect4" visible="1"/>
+                    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="48" id="rect5" layoutX="8" layoutY="8" stroke="#334db3" strokeType="INSIDE" strokeWidth="-1" styleClass="" width="8"/>
+                    <Data cursor="DEFAULT" enabled="1" id="data-rect5" visible="1"/>
+                    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="20" layoutY="20" prefHeight="16" prefWidth="96" styleClass="label " text="16:9" textAlignment="LEFT" underline="false" wrapText="false">
+                      <font>
+                        <Font name="System Regular" size="20"/>
+                      </font>
+                    </LabelEx>
+                    <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+                    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="24" layoutY="40" prefHeight="16" prefWidth="96" styleClass="label " text="320x180p" textAlignment="LEFT" underline="false" wrapText="false">
+                      <font>
+                        <Font name="System Regular" size="12"/>
+                      </font>
+                    </LabelEx>
+                    <Data cursor="DEFAULT" enabled="1" id="data-label8" visible="1"/>
+                  </children>
+                  <titleFont>
+                    <Font name="System Regular" size="12"/>
+                  </titleFont>
+                </Panel>
+                <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="16" layoutY="24" prefHeight="31" prefWidth="544" styleClass="label " text="Window form and resolution for Picture-in-Picture mode:" textAlignment="LEFT" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Regular" size="21"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+                <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible="1"/>
+                <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox" layoutX="12" layoutY="276" prefHeight="28" prefWidth="172" styleClass="check-box " text="Allow custom resolution:" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </CheckBox>
+                <Data cursor="DEFAULT" enabled="1" id="data-checkbox" visible="1"/>
+                <Slider blockIncrement="10" focusTraversable="true" id="cusH" layoutX="12" layoutY="364" majorTickUnit="25" max="480" min="0" orientation="HORIZONTAL" prefHeight="14" prefWidth="616" showTickLabels="true" showTickMarks="true" snapToTicks="false" styleClass="slider " value="0"/>
+                <Data cursor="DEFAULT" enabled="" id="data-cusH" visible="1"/>
+                <Slider blockIncrement="10" focusTraversable="true" id="cusW" layoutX="12" layoutY="312" majorTickUnit="25" max="640" min="0" orientation="HORIZONTAL" prefHeight="38" prefWidth="616" showTickLabels="true" showTickMarks="true" snapToTicks="false" styleClass="slider " value="0"/>
+                <Data cursor="DEFAULT" enabled="" id="data-cusW" visible="1"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Network">
+          <content>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="522" prefWidth="640" styleClass="">
+              <children>
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label11" layoutX="16" layoutY="24" prefHeight="31" prefWidth="544" styleClass="label " text="Proxy and streaming settings:" textAlignment="LEFT" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Regular" size="21"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label11" visible="1"/>
+                <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkboxAlt" layoutX="20" layoutY="63" prefHeight="28" prefWidth="172" styleClass="check-box " text="Allow proxy:" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </CheckBox>
+                <Data cursor="DEFAULT" enabled="1" id="data-checkboxAlt" visible="1"/>
+                <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="16" layoutY="96" prefColumnCount="12" prefHeight="32" prefWidth="192" promptText="Proxy host, for example: 127.0.0.1" styleClass="text-input text-field " text="">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </TextField>
+                <Data cursor="DEFAULT" enabled="" id="data-edit" visible="1"/>
+                <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="editAlt" layoutX="212" layoutY="96" prefColumnCount="12" prefHeight="32" prefWidth="172" promptText="Proxy port, for example: 8080" styleClass="text-input text-field " text="">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </TextField>
+                <Data cursor="DEFAULT" enabled="" id="data-editAlt" visible="1"/>
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label12" layoutX="24" layoutY="188" prefHeight="20" prefWidth="148" styleClass="label " text="Connection protocol:" textAlignment="LEFT" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label12" visible="1"/>
+                <RadioGroupPane alignment="TOP_LEFT" focusTraversable="false" id="radioGroup" layoutX="20" layoutY="212" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" orientation="VERTICAL" prefHeight="61" prefWidth="452" selectedIndex="1" spacing="5" styleClass="" textColor="#e6e6e6">
+                  <children/>
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                  <items xmlns:fx="http://javafx.com/fxml">
+                    <FXCollections fx:factory="observableArrayList">
+                      <String fx:value="HTTP"/>
+                      <String fx:value="HTTPS (default)"/>
+                      <String fx:value="SOCKS"/>
+                    </FXCollections>
+                  </items>
+                </RadioGroupPane>
+                <Data cursor="DEFAULT" enabled="" id="data-radioGroup" visible="1"/>
+                <Panel backgroundColor="#333333" borderColor="#c0c0c0" borderRadius="5" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel4" layoutX="4" layoutY="472" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="40" prefWidth="632" styleClass="" titleColor="#d2d2d2" titleOffset="15" titlePosition="TOP_LEFT">
+                  <children>
+                    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="24" id="image3" layoutX="4" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="24">
+                      <font>
+                        <Font name="System Regular" size="12"/>
+                      </font>
+                    </ImageViewEx>
+                    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label14" layoutX="36" layoutY="8" prefHeight="24" prefWidth="344" styleClass="label " text="Internet connection status: Unknown" textAlignment="CENTER" underline="false" wrapText="true">
+                      <font>
+                        <Font name="System Regular" size="12"/>
+                      </font>
+                    </LabelEx>
+                    <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/server.png" visible="1"/>
+                    <Data cursor="DEFAULT" enabled="1" id="data-label14" visible="1"/>
+                    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button8" layoutX="480" layoutY="4" prefHeight="32" prefWidth="148" styleClass="button " text="Check connection" textAlignment="CENTER" underline="false" wrapText="false">
+                      <font>
+                        <Font name="System Regular" size="12"/>
+                      </font>
+                    </Button>
+                    <Data cursor="DEFAULT" enabled="1" id="data-button8" visible="1"/>
+                    <ProgressIndicator focusTraversable="false" id="progressIndicator" layoutX="452" layoutY="8" prefHeight="24" prefWidth="24" progress="-0.01" styleClass="progress-indicator "/>
+                    <Data cursor="DEFAULT" enabled="1" id="data-progressIndicator" visible=""/>
+                  </children>
+                  <titleFont>
+                    <Font name="System Regular" size="12"/>
+                  </titleFont>
+                </Panel>
+                <Data cursor="DEFAULT" enabled="1" id="data-panel4" visible="1"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Widgets">
+          <content>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="522" prefWidth="640" styleClass="">
+              <children>
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label15" layoutX="16" layoutY="8" prefHeight="128" prefWidth="232" styleClass="label " text=":-(" textAlignment="LEFT" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Regular" size="72"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label15" visible="1"/>
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label16" layoutX="15" layoutY="123" prefHeight="20" prefWidth="528" styleClass="label " text="Sorry, this function does not available on this version of app." textAlignment="LEFT" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label16" visible="1"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="About">
+          <content>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="528" prefWidth="640" styleClass="">
+              <children>
+                <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1a" focusTraversable="false" height="528" id="rect" layoutX="448" layoutY="0" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="192"/>
+                <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="232" id="image" layoutX="88" layoutY="-56" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="256">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </ImageViewEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/spirit_logo.png" visible="1"/>
+                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="96" layoutY="64" prefHeight="132" prefWidth="244" styleClass="label " text=".::SPIRIT MEDIA PLAYER::." textAlignment="LEFT" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="96" layoutY="204" prefHeight="164" prefWidth="248" styleClass="label " text="Developed by Mikhail &quot;The Sam&quot; Samarin&#10;Using JPHP&#10;&#10;Special thanks to:&#10;Dmitriy Zaicev&#10;&#10;Under MPL-2.0 license&#10;&#10;Copyright (C) 2021 by Mihail Samarin" textAlignment="CENTER" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+                <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+                <FlatButton alignment="CENTER_LEFT" borderRadius="10" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button5" layoutX="452" layoutY="8" prefHeight="32" prefWidth="184" styleClass="x-flat-button " text="Developer`s blog" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </FlatButton>
+                <Data cursor="DEFAULT" enabled="1" graphic=".data/img/social.png" id="data-button5" visible="1"/>
+                <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="456" layoutY="504" prefHeight="20" prefWidth="184" styleClass="label " text="Ver.: Preview" textAlignment="LEFT" underline="false" wrapText="false">
+                  <font>
+                    <Font name="System Regular" size="12"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+      </tabs>
+    </TabPaneEx>
+    <Data cursor="DEFAULT" draggable="NONE" enabled="1" id="data-tabPane" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button6" layoutX="480" layoutY="566" prefHeight="32" prefWidth="148" styleClass="button " text="Close" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button6" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button7" layoutX="328" layoutY="566" prefHeight="32" prefWidth="148" styleClass="button " text="Apply" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect6" visible="1"/>
+  </children>
+</AnchorPane>

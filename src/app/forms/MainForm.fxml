@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="592" prefWidth="640" styleClass="">
+  <children>
+    <org.develnext.jphp.ext.javafx.support.control.MediaViewBox AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="-1" backgroundColor="#000000" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="mediaView" layoutX="0" layoutY="-1" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="593" prefWidth="640" proportional="true" smooth="true" styleClass="" titleColor="#d2d2d2" titleOffset="15" titlePosition="TOP_LEFT">
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+      <children/>
+    </org.develnext.jphp.ext.javafx.support.control.MediaViewBox>
+    <Panel AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="52" borderColor="#333333" borderRadius="0" borderStyle="SOLID" borderWidth="3" focusTraversable="false" id="panel4" layoutX="0" layoutY="52" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="540" prefWidth="640" styleClass="" titleColor="#d2d2d2" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <ImageViewEx AnchorPane.bottomAnchor="176" AnchorPane.leftAnchor="4" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="176" autoSize="false" centered="true" focusTraversable="false" height="240" id="imageAlt" layoutX="4" layoutY="176" mosaic="false" mosaicGap="0" opacity="0.18292682926829" proportional="false" stretch="false" styleClass="" textFill="#000000" width="636">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-mediaView" visible="1"/>
+    <Panel AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" backgroundColor="#333333" borderColor="#333333" borderRadius="5" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="500" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="92" prefWidth="640" styleClass="" title=".:: Media Controls ::." titleColor="#d2d2d2" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx AnchorPane.rightAnchor="11" autoSize="false" centered="false" focusTraversable="false" height="20" id="image" layoutX="524" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="104">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Slider AnchorPane.leftAnchor="3" AnchorPane.rightAnchor="4" blockIncrement="10" focusTraversable="true" id="slider_t" layoutX="4" layoutY="8" majorTickUnit="25" max="100" min="0" orientation="HORIZONTAL" prefHeight="24" prefWidth="628" showTickLabels="false" showTickMarks="true" snapToTicks="false" styleClass="slider " value="0"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-slider_t" visible="1"/>
+        <Slider AnchorPane.rightAnchor="10" blockIncrement="10" focusTraversable="true" id="sliderAlt" layoutX="522" layoutY="30" majorTickUnit="25" max="1" min="0" orientation="HORIZONTAL" prefHeight="16" prefWidth="107" showTickLabels="false" showTickMarks="false" snapToTicks="false" styleClass="slider " value="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-sliderAlt" visible="1"/>
+        <FlatButton AnchorPane.leftAnchor="343" alignment="CENTER" borderRadius="5" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="buttonAlt" layoutX="344" layoutY="36" prefHeight="36" prefWidth="40" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/next.png" id="data-buttonAlt" visible="1"/>
+        <FlatButton AnchorPane.leftAnchor="251" alignment="CENTER" borderRadius="5" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button3" layoutX="252" layoutY="36" prefHeight="36" prefWidth="40" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/prev.png" id="data-button3" visible="1"/>
+        <FlatButton AnchorPane.leftAnchor="387" alignment="CENTER" borderRadius="5" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button4" layoutX="388" layoutY="36" prefHeight="36" prefWidth="40" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/forw.png" id="data-button4" visible="1"/>
+        <FlatButton AnchorPane.leftAnchor="207" alignment="CENTER" borderRadius="5" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button5" layoutX="208" layoutY="36" prefHeight="36" prefWidth="40" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/back.png" id="data-button5" visible="1"/>
+        <FlatButton AnchorPane.leftAnchor="39" alignment="CENTER" borderRadius="5" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button7" layoutX="40" layoutY="56" prefHeight="32" prefWidth="32" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/add_web.png" id="data-button7" visible="1"/>
+        <FlatButton AnchorPane.rightAnchor="19" alignment="CENTER" borderRadius="5" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button8" layoutX="596" layoutY="56" prefHeight="24" prefWidth="24" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/fscreen.png" id="data-button8" visible="1"/>
+        <FlatButton AnchorPane.rightAnchor="51" alignment="CENTER" borderRadius="5" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button9" layoutX="560" layoutY="56" prefHeight="28" prefWidth="28" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/pinp.png" id="data-button9" visible="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/bar.png" visible="1"/>
+        <FlatButton AnchorPane.leftAnchor="303" alignment="CENTER" borderRadius="5" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button" layoutX="304" layoutY="36" prefHeight="32" prefWidth="32" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/play.png" id="data-button" visible="1"/>
+        <FlatButton AnchorPane.leftAnchor="3" alignment="CENTER" borderRadius="5" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button6" layoutX="4" layoutY="56" prefHeight="32" prefWidth="32" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/add.png" id="data-button6" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <Panel AnchorPane.bottomAnchor="96" AnchorPane.rightAnchor="4" AnchorPane.topAnchor="64" backgroundColor="#333333" borderColor="#1a1a1a" borderRadius="5" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panelAlt" layoutX="412" layoutY="64" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="432" prefWidth="224" styleClass="" titleColor="#d2d2d2" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ListViewEx AnchorPane.bottomAnchor="35" AnchorPane.leftAnchor="3" AnchorPane.rightAnchor="3" AnchorPane.topAnchor="3" editable="false" fixedCellSize="-1" focusTraversable="true" id="listView" layoutX="4" layoutY="4" prefHeight="404" prefWidth="216" styleClass="list-view ">
+          <items xmlns:fx="http://javafx.com/fxml">
+            <FXCollections fx:factory="observableArrayList"/>
+          </items>
+        </ListViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-listView" visible="1"/>
+        <FlatButton AnchorPane.bottomAnchor="3" AnchorPane.rightAnchor="3" alignment="CENTER" borderRadius="5" color="#4d4d4d" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#666666" id="button12" layoutX="116" layoutY="400" prefHeight="28" prefWidth="104" styleClass="x-flat-button " text="Clear" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic="" id="data-button12" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/paused-screen.png" visible=""/>
+    <Panel AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" backgroundColor="#333333" borderColor="#333333" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel3" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="60" prefWidth="640" styleClass="" titleColor="#d2d2d2" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <FlatButton AnchorPane.rightAnchor="4" AnchorPane.topAnchor="0" alignment="CENTER" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button13" layoutX="584" layoutY="0" prefHeight="24" prefWidth="52" styleClass="x-flat-button " text="X" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button13" visible="1"/>
+        <FlatButton AnchorPane.rightAnchor="56" AnchorPane.topAnchor="0" alignment="CENTER" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button14" layoutX="552" layoutY="0" prefHeight="24" prefWidth="32" styleClass="x-flat-button " text="&lt;&gt;" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button14" visible="1"/>
+        <FlatButton AnchorPane.rightAnchor="88" AnchorPane.topAnchor="0" alignment="CENTER" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button15" layoutX="520" layoutY="0" prefHeight="24" prefWidth="32" styleClass="x-flat-button " text="_" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button15" visible="1"/>
+        <LabelEx AnchorPane.leftAnchor="112" AnchorPane.rightAnchor="124" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="112" layoutY="4" prefHeight="20" prefWidth="404" styleClass="label " text=".:: Spirit Media Player ::." textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <FlatButton alignment="CENTER_LEFT" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button10" layoutX="4" layoutY="36" prefHeight="24" prefWidth="108" styleClass="x-flat-button " text="  New window" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button10" visible="1"/>
+        <FlatButton alignment="CENTER_LEFT" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button16" layoutX="84" layoutY="36" prefHeight="24" prefWidth="60" styleClass="x-flat-button " text="  Settings" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button16" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="20" id="image3" layoutX="7" layoutY="6" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="20">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/spirit_logo.png" visible="1"/>
+        <FlatButton alignment="CENTER_LEFT" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d4d4d" id="button17" layoutX="140" layoutY="36" prefHeight="24" prefWidth="40" styleClass="x-flat-button " text="  Help" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic="" id="data-button17" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel4" visible="1"/>
+    <ImageViewEx AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="64" autoSize="false" centered="true" focusTraversable="false" height="72" id="image4" layoutX="0" layoutY="64" mosaic="false" mosaicGap="0" opacity="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="640">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image4" image=".data/img/close-fscreen.png" visible=""/>
+  </children>
+</AnchorPane>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="panel">
+    <behaviour delay="0" duration="100" initialOpacity="1" opacity="1" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="HOVER"/>
+  </target>
+  <target id="panelAlt">
+    <behaviour delay="0" duration="100" initialOpacity="1" opacity="1" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="HOVER"/>
+  </target>
+  <target id="imageAlt">
+    <behaviour delay="0" duration="100" initialOpacity="1" opacity="1" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="HOVER"/>
+    <behaviour color="#000000" offsetX="0" offsetY="5" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="mediaView">
+    <behaviour animated="1" opacity="0.7" opacityEnabled="" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="panel3">
+    <behaviour animated="1" opacity="0.7" opacityEnabled="" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="label">
+    <behaviour animated="1" opacity="0.7" opacityEnabled="" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="button">
+    <behaviour delay="0" duration="100" initialScale="1" repeatCount="-1" scale="1.05" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+  </target>
+  <target id="buttonAlt">
+    <behaviour delay="0" duration="100" initialScale="1" repeatCount="-1" scale="1.05" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+    <behaviour color="#000000" offsetX="0" offsetY="5" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="button4">
+    <behaviour delay="0" duration="100" initialScale="1" repeatCount="-1" scale="1.05" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+    <behaviour color="#000000" offsetX="0" offsetY="5" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="button3">
+    <behaviour delay="0" duration="100" initialScale="1" repeatCount="-1" scale="1.05" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+    <behaviour color="#000000" offsetX="0" offsetY="5" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="button5">
+    <behaviour delay="0" duration="100" initialScale="1" repeatCount="-1" scale="1.05" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+    <behaviour color="#000000" offsetX="0" offsetY="5" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="button9">
+    <behaviour delay="0" duration="100" initialScale="1" repeatCount="-1" scale="1.05" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+    <behaviour color="#000000" offsetX="0" offsetY="5" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="button8">
+    <behaviour delay="0" duration="100" initialScale="1" repeatCount="-1" scale="1.05" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+    <behaviour color="#000000" offsetX="0" offsetY="5" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="button7">
+    <behaviour delay="0" duration="100" initialScale="1" repeatCount="-1" scale="1.05" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+    <behaviour color="#000000" offsetX="0" offsetY="5" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="sliderAlt">
+    <behaviour delay="0" duration="100" initialScale="1" repeatCount="-1" scale="1.025" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+  </target>
+  <target id="button6">
+    <behaviour delay="0" duration="100" initialScale="1" repeatCount="-1" scale="1.05" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+    <behaviour color="#000000" offsetX="0" offsetY="5" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="image4">
+    <behaviour delay="0" duration="100" initialOpacity="1" opacity="1" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="HOVER"/>
+    <behaviour color="#000000" offsetX="0" offsetY="5" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

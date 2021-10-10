@@ -1,0 +1,33 @@
+{
+  "props": [],
+  "components": {
+    "robot": {
+      "type": "script\\RobotScript",
+      "x": 80,
+      "y": 16,
+      "props": {}
+    },
+    "timer": {
+      "type": "script\\TimerScript",
+      "x": 144,
+      "y": 16,
+      "props": {
+        "interval": 500,
+        "repeatable": "1",
+        "autoStart": "1"
+      }
+    },
+    "player": {
+      "type": "script\\MediaPlayerScript",
+      "x": 208,
+      "y": 16,
+      "props": {
+        "autoplay": "1",
+        "volume": "1.0",
+        "balance": "0.0",
+        "rate": "1.0",
+        "view": "mediaView"
+      }
+    }
+  }
+}
